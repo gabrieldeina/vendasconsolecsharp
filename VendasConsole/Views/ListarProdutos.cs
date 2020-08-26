@@ -5,12 +5,12 @@ using VendasConsole.DAL;
 using VendasConsole.Models;
 
 namespace VendasConsole.Views {
-    class ListarClientes {
+    class ListarProdutos {
         public static void Renderizar() {
 
-            Console.WriteLine(" --- LISTAR CLIENTES --- ");
-            foreach (Cliente clienteCadastrado in ClienteDAO.Listar()) {
-                Console.WriteLine(clienteCadastrado);
+            Console.WriteLine(" --- LISTAR PRODUTOS --- ");
+            foreach (Produto produtoCadastrado in ProdutoDAO.Listar()) {
+                Console.WriteLine(produtoCadastrado);
             }
         }
     }
