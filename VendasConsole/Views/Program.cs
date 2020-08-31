@@ -7,6 +7,7 @@ using VendasConsole.Utils;
 namespace VendasConsole.Views {
     class Program {
         static void Main(string[] args) {
+            Dados.Inicializar();
             string[] menu = { "Sair", "Cadastrar Cliente", "Listar Clientes", "Cadastrar Vendedor", "Listar Vendedores",
                 "Cadastrar Produto", "Listar Produtos", "Registrar Venda", "Listar Vendas", "Listar Vendas por Cliente" };
             int opcao;
